@@ -2,8 +2,8 @@ import mongoose from 'mongoose';
 
 const noteSchema = mongoose.Schema({
   userId: mongoose.Schema.ObjectId,
-  name: String,
-  text: String,
+  userName: String,
+  description: String,
   location: Object
 });
 

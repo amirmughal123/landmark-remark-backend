@@ -11,7 +11,7 @@ const create = async(req, res, next) => {
       else return res.send({ status: true, msg: 'User created successfully!!!', data });
 
     } else {
-      return res.send({ status: true, msg: 'User loggedin successfully!!!', user });
+      return res.send({ status: true, msg: 'User loggedin successfully!!!', data: user });
     }
 
   } catch(err) {
